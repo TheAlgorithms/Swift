@@ -8,7 +8,6 @@
 // Given n, calculate F(n).
 //
 // @leticiafaleia
-
 func fibonacci(_ number: Int) -> Int {
     guard number > 1 else { return number }
     return fibonacci(number - 1) + fibonacci(number - 2)
