@@ -4,5 +4,5 @@
   * Queue
     * [Queue](https://github.com/TheAlgorithms/Swift/blob/master/data_structures/queue/queue.swift)
 
-## Fibonacci
-  * [Fibonacci](https://github.com/TheAlgorithms/Swift/blob/master/fibonacci/fibonacci.swift)
+## Recursion
+  * [Fibonacci](https://github.com/TheAlgorithms/Swift/blob/master/recursion/fibonacci.swift)
