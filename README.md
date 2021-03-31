@@ -6,7 +6,7 @@ These implementations are for learning purposes. They may be less efficient than
 
 ## Community Channel
 
-We're on [Gitter](https://gitter.im/TheAlgorithms)!  Please join us.
+We're on [Gitter](https://gitter.im/TheAlgorithms)! Please join us.
 
 ## List of Algorithms
 
