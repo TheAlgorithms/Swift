@@ -8,3 +8,6 @@
 
 ## Recursion
   * [Fibonacci](https://github.com/TheAlgorithms/Swift/blob/master/recursion/fibonacci.swift)
+
+## Sorts
+  * [Insertionsort](https://github.com/TheAlgorithms/Swift/blob/master/sorts/InsertionSort.swift)
