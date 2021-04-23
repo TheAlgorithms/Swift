@@ -28,15 +28,16 @@ public struct Stack<T> {
 
 var stack = Stack<Int>()
 
-stack.push(1)
-stack.push(2)
-stack.push(3)
-stack.count
-stack.peek
-stack.isEmpty
+stack.push(10)
+stack.push(20)
+stack.push(30)
+
+print(stack.count)
+print(stack.peek)
+print(stack.isEmpty)
 
 print(stack.pop())
 print(stack.pop())
 print(stack.pop())
-stack.isEmpty
-stack.count
+print(stack.isEmpty)
+print(stack.count)
