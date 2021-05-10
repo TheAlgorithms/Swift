@@ -1,5 +1,10 @@
 # List of all files
 
+## Algorithms
+  * Parsing
+    * Shunting Yard
+      * [Shunting Yard](https://github.com/TheAlgorithms/Swift/blob/master/algorithms/parsing/shunting_yard/shunting_yard.swift)
+
 ## Data Structures
   * Heap
     * [Heap](https://github.com/TheAlgorithms/Swift/blob/master/data_structures/heap/heap.swift)
