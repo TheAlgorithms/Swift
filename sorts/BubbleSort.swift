@@ -1,5 +1,7 @@
 import Foundation
 
+extension Array where Element: Comparable {
+
     func bubbleSort(by areInIncreasingOrder: ((Element, Element) -> Bool) = (<)) -> [Element] {
         var data = self
         
@@ -11,6 +13,7 @@ import Foundation
         
         return data
     }
+}
 
 func swap<T: Comparable>(left: inout T, right: inout T) {
     print("Swapping \(left) and \(right)")
