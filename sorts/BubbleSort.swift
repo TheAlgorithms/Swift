@@ -22,4 +22,8 @@ func swap<T: Comparable>(left: inout T, right: inout T) {
     left = temp
 }
 
-// time complexity = O(n^2)
+// The code below can be used for testing
+
+// let numberList : Array<Int> = [8, 2, 10, 9, 7, 5]
+// let results: Array<Int> = numberList.bubbleSort()
+// print(results)
