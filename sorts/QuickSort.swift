@@ -49,7 +49,7 @@ extension Array where Element: Comparable {
     }
     
     /// Returns a sorted version of this array using the QuickSort algorithm.
-    func quickSorted() -> Self {
+    func quickSorted() -> Array {
         var copy = self
         
         copy.quickSort()
