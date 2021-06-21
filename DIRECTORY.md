@@ -27,6 +27,7 @@
 ## Sorts
   * [Bubblesort](https://github.com/TheAlgorithms/Swift/blob/master/sorts/BubbleSort.swift)
   * [Insertionsort](https://github.com/TheAlgorithms/Swift/blob/master/sorts/InsertionSort.swift)
+  * [Quicksort](https://github.com/TheAlgorithms/Swift/blob/master/sorts/QuickSort.swift)
   * [Selectionsort](https://github.com/TheAlgorithms/Swift/blob/master/sorts/SelectionSort.swift)
 
 ## Trees
