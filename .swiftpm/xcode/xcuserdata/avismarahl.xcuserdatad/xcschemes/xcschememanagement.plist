@@ -7,7 +7,7 @@
 		<key>Algorithms-Package.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>4</integer>
+			<integer>5</integer>
 		</dict>
 		<key>Algorithms.xcscheme_^#shared#^_</key>
 		<dict>
@@ -27,12 +27,12 @@
 		<key>SwiftAlgorithms.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>5</integer>
+			<integer>3</integer>
 		</dict>
 		<key>TheAlgorithms/Swift-Package.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>3</integer>
+			<integer>4</integer>
 		</dict>
 		<key>TheAlgorithmsSwift-Package.xcscheme_^#shared#^_</key>
 		<dict>
@@ -53,6 +53,16 @@
 			<true/>
 		</dict>
 		<key>DataStructures</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>SwiftAlgorithms</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>SwiftAlgorithmsTests</key>
 		<dict>
 			<key>primary</key>
 			<true/>
