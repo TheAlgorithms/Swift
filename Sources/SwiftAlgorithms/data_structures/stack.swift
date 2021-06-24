@@ -24,20 +24,4 @@ public struct Stack<T> {
     }
 }
 
-// The code below can be used for testing
 
-var stack = Stack<Int>()
-
-stack.push(10)
-stack.push(20)
-stack.push(30)
-
-print(stack.count)
-print(stack.peek)
-print(stack.isEmpty)
-
-print(stack.pop())
-print(stack.pop())
-print(stack.pop())
-print(stack.isEmpty)
-print(stack.count)

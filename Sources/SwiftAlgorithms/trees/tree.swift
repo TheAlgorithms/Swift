@@ -31,28 +31,3 @@ extension TreeNode where T: Equatable {
         return nil
     }
 }
-
-// The code below can be used for testing
-let tree = TreeNode<String>(value: "animals")
-
-let reptilesNode = TreeNode<String>(value: "reptiles")
-let mammalsNode = TreeNode<String>(value: "mammals")
-
-let lizardsNode = TreeNode<String>(value: "lizards")
-let snakesNode = TreeNode<String>(value: "snakes")
-
-let dogsNode = TreeNode<String>(value: "dogs")
-let humansNode = TreeNode<String>(value: "humans")
-
-tree.addChild(reptilesNode)
-tree.addChild(mammalsNode)
-
-reptilesNode.addChild(lizardsNode)
-reptilesNode.addChild(snakesNode)
-
-mammalsNode.addChild(dogsNode)
-mammalsNode.addChild(humansNode)
-
-print(tree.search("humans")?.value)
-print(tree.search("lizards")?.value)
-print(tree.search("dragons")?.value)

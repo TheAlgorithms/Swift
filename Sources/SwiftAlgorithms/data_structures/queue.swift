@@ -16,15 +16,3 @@ struct Queue<T> {
   }
 }
 
-var queue = Queue<String>()
-
-queue.push("One")
-queue.push("Two")
-queue.push("Three")
-
-print(queue.pop())
-print(queue)
-print(queue.pop())
-print(queue)
-print(queue.pop())
-print(queue)

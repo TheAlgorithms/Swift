@@ -3,6 +3,9 @@ import Foundation
 extension Array where Element: Comparable {
 
     func bubbleSort(by areInIncreasingOrder: ((Element, Element) -> Bool) = (<)) -> [Element] {
+        if self.count == 0 {
+            return self
+        }
         var data = self
         
         for i in 0..<(data.count-1) { 
