@@ -1,8 +1,8 @@
-class UnionFindNode {
+public class UnionFindNode {
     var rank = 0
 
     private var parent: UnionFindNode? = nil
-
+    public init(){}
     func findRoot() -> UnionFindNode {
         var x = self
         while let parent = x.parent {
@@ -13,7 +13,7 @@ class UnionFindNode {
     }
 
     @discardableResult
-    static func union(_ x: UnionFindNode, _ y: UnionFindNode) -> UnionFindNode {
+    public static func union(_ x: UnionFindNode, _ y: UnionFindNode) -> UnionFindNode {
         var x = x.findRoot()
         var y = y.findRoot()
 
@@ -31,7 +31,7 @@ class UnionFindNode {
         return x
     }
 
-    static func inSameSet(_ x: UnionFindNode, _ y: UnionFindNode) -> Bool {
+    public static func inSameSet(_ x: UnionFindNode, _ y: UnionFindNode) -> Bool {
         return x.findRoot() === y.findRoot()
     }
 }

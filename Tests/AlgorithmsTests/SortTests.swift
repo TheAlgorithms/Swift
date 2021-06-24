@@ -1,6 +1,6 @@
 import Foundation
 import XCTest
-@testable import SwiftAlgorithms
+@testable import Algorithms
 
 final class SortTests: XCTestCase {
     private let testCases = [

@@ -1,5 +1,5 @@
     import XCTest
-    @testable import SwiftAlgorithms
+    @testable import Algorithms
     
     final class GraphTests: XCTestCase {
         func testKruskal() {

@@ -1,28 +1,19 @@
 import Foundation
 
-public class Node<Value> {
-    public var value: Value?
-    public var next: Node?
-    
-    public init(value: Value? = nil, next: Node<Value>? = nil) {
-        self.value = value
-        self.next = next
-    }
-}
-
-extension Node: CustomStringConvertible {
-    public var description: String {
-        guard let next = next else {
-            return "\(String(describing: value))"
-        }
-        return "\(String(describing: value)) -> " + String(describing: next) + " "
-    }
-}
-
 public struct LinkedList<Value> {
     
+    public class Node<Value> {
+        public var value: Value?
+        public var next: Node?
+        
+        public init(value: Value? = nil, next: Node<Value>? = nil) {
+            self.value = value
+            self.next = next
+        }
+    }
+    
     public var head: Node<Value>?
-    public var tail: Node<Value>?
+    private var tail: Node<Value>?
     
     public init() {}
     
@@ -121,6 +112,14 @@ extension LinkedList: CustomStringConvertible {
         }
         return String(describing: head)
       }
+}
+extension LinkedList.Node: CustomStringConvertible {
+    public var description: String {
+        guard let next = next else {
+            return "\(String(describing: value))"
+        }
+        return "\(String(describing: value)) -> " + String(describing: next) + " "
+    }
 }
 
 // Below you can find a testing Scenario for Playground.

@@ -1,8 +1,8 @@
-struct Heap<Element> {
+public struct Heap<Element> {
     let compare: (Element, Element) -> Bool
     private var items : [Element]
 
-    init(_ items : [Element], compare: @escaping (Element, Element) -> Bool) {
+    public init(_ items : [Element], compare: @escaping (Element, Element) -> Bool) {
         self.compare = compare
         self.items = items
         for index in (0 ..< count / 2).reversed() {
@@ -11,23 +11,23 @@ struct Heap<Element> {
     }
 
     /// The minimum item on this heap or nil if the heap is empty
-    var min: Element? {
+    public var min: Element? {
         return items.first
     }
 
     /// The number of items on this heap
-    var count: Int {
+    public var count: Int {
         return items.count
     }
 
     /// true if this heap is empty
-    var isEmpty: Bool {
+    public var isEmpty: Bool {
         return items.isEmpty
     }
 
     /// Removes and returns the minimum item from the heap.
     /// - returns: The minimum item from the heap or nil if the heap is empty.
-    mutating func extractMin() -> Element? {
+    public mutating func extractMin() -> Element? {
         guard let result = items.first else { return nil }
 
         items.removeFirst()
@@ -38,7 +38,7 @@ struct Heap<Element> {
 
     /// Inserts a new item into this heap
     /// - parameter item: The new item to insert
-    mutating func insert(item : Element) {
+    public mutating func insert(item : Element) {
         items.append(item)
         var i = items.count - 1
         while i > 0 && compare(items[i], items[parent(i)]) {
@@ -83,7 +83,7 @@ struct Heap<Element> {
 
 
 extension Heap: ExpressibleByArrayLiteral where Element: Comparable {
-    init(arrayLiteral elements: Element...) {
+    public init(arrayLiteral elements: Element...) {
         self.init(elements, compare: <)
     }
 

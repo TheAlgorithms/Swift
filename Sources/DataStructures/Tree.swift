@@ -1,4 +1,4 @@
-import Foundation
+simport Foundation
 
 public class TreeNode<T> {
     public var value: T

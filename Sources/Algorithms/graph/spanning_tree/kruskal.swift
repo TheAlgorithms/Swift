@@ -1,4 +1,5 @@
-enum Kruskal {
+import DataStructures
+public enum Kruskal {
     struct Vertex {
         let name: String
         let node = UnionFindNode()
@@ -31,6 +32,7 @@ enum Kruskal {
             result.append(edge)
         }
 
+        
         return result
     }
 }
