@@ -1,3 +1,4 @@
+
 import Foundation
 
 extension Array where Element: Comparable {
@@ -29,30 +30,30 @@ extension Array where Element: Comparable {
 		by comparison: (Element, Element) -> Bool
 	) {
 		var copy = [Element](repeating: self[left], count: right - left + 1)
-		var (p, q, k) = (left, mid + 1, 0)
+		var (leftStartIndex, rightStartIndex, currentIndex) = (left, mid + 1, 0)
+//         [4,	5,	6,	1,	2,	3]	<--- input array
+//          ^           ^
+//   leftStartIndex	  rightStartIndex
 		for _ in left ... right {
-			if p > mid {
-				copy[k] = self[q]
-				k += 1
-				q += 1
-			} else if q > right {
-				copy[k] = self[p]
-				k += 1
-				p += 1
-			} else if comparison(self[p], self[q]) {
-				copy[k] = self[p]
-				k += 1
-				p += 1
+			if leftStartIndex > mid {
+				copy[currentIndex] = self[rightStartIndex]
+				rightStartIndex += 1
+			} else if rightStartIndex > right {
+				copy[currentIndex] = self[leftStartIndex]
+				leftStartIndex += 1
+			} else if comparison(self[leftStartIndex], self[rightStartIndex]) {
+				copy[currentIndex] = self[leftStartIndex]
+				leftStartIndex += 1
 			} else {
-				copy[k] = self[q]
-				k += 1
-				q += 1
+				copy[currentIndex] = self[rightStartIndex]
+				rightStartIndex += 1
 			}
+			currentIndex += 1
 		}
-		p = left
+		leftStartIndex = left
 		for i in copy.indices {
-			self[p] = copy[i]
-			p += 1
+			self[leftStartIndex] = copy[i]
+			leftStartIndex += 1
 		}
 	}
 	
