@@ -31,9 +31,6 @@ extension Array where Element: Comparable {
 	) {
 		var copy = [Element](repeating: self[left], count: right - left + 1)
 		var (leftStartIndex, rightStartIndex, currentIndex) = (left, mid + 1, 0)
-//         [4,	5,	6,	1,	2,	3]	<--- input array
-//          ^                   ^
-//          leftStartIndex	rightStartIndex
 		for _ in left ... right {
 			if leftStartIndex > mid {
 				copy[currentIndex] = self[rightStartIndex]
