@@ -63,7 +63,7 @@ extension Array where Element: Comparable {
 }
 
 // The code below can be used for testing
-var numberList = [15, 2, 23, 11, 3, 9]
-debugPrint(numberList.mergeSorted(by: >))
-numberList.mergeSort(by: <)
-debugPrint(numberList)
+// var numberList = [15, 2, 23, 11, 3, 9]
+// debugPrint(numberList.mergeSorted(by: >))
+// numberList.mergeSort(by: <)
+// debugPrint(numberList)
