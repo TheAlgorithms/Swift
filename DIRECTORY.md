@@ -29,6 +29,7 @@
   * [Insertionsort](https://github.com/TheAlgorithms/Swift/blob/master/sorts/InsertionSort.swift)
   * [Quicksort](https://github.com/TheAlgorithms/Swift/blob/master/sorts/QuickSort.swift)
   * [Selectionsort](https://github.com/TheAlgorithms/Swift/blob/master/sorts/SelectionSort.swift)
+  * [MergeSort](https://github.com/TheAlgorithms/Swift/blob/master/sorts/MergeSort.swift)
 
 ## Trees
   * [Tree](https://github.com/TheAlgorithms/Swift/blob/master/trees/tree.swift)
