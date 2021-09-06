@@ -26,6 +26,7 @@
 
 ## Search
   * [Binarysearch](https://github.com/TheAlgorithms/Swift/blob/master/Search/BinarySearch.swift)
+  * [Linearsearch](https://github.com/TheAlgorithms/Swift/blob/master/Search/LinearSearch.swift)
 
 ## Sorts
   * [Bubblesort](https://github.com/TheAlgorithms/Swift/blob/master/sorts/BubbleSort.swift)
