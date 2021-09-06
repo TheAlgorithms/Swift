@@ -24,6 +24,9 @@
 ## Recursion
   * [Fibonacci](https://github.com/TheAlgorithms/Swift/blob/master/recursion/fibonacci.swift)
 
+## Search
+  * [Binarysearch](https://github.com/TheAlgorithms/Swift/blob/master/Search/BinarySearch.swift)
+
 ## Sorts
   * [Bubblesort](https://github.com/TheAlgorithms/Swift/blob/master/sorts/BubbleSort.swift)
   * [Insertionsort](https://github.com/TheAlgorithms/Swift/blob/master/sorts/InsertionSort.swift)
