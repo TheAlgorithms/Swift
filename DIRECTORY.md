@@ -1,6 +1,34 @@
 # List of all files
 
 ## Algorithms
+  * Ai
+    * Minimax
+      * Sources
+        * Minimax.Playground
+          * [Contents](https://github.com/TheAlgorithms/Swift/blob/master/algorithms/AI/minimax/Sources/Minimax.playground/Contents.swift)
+          * Sources
+            * Model
+              * Board
+                * [Board](https://github.com/TheAlgorithms/Swift/blob/master/algorithms/AI/minimax/Sources/Minimax.playground/Sources/Model/Board/Board.swift)
+                * [Boardposition](https://github.com/TheAlgorithms/Swift/blob/master/algorithms/AI/minimax/Sources/Minimax.playground/Sources/Model/Board/BoardPosition.swift)
+                * [Boardstatus](https://github.com/TheAlgorithms/Swift/blob/master/algorithms/AI/minimax/Sources/Minimax.playground/Sources/Model/Board/BoardStatus.swift)
+              * Gamemodel
+                * [Difficultlevel](https://github.com/TheAlgorithms/Swift/blob/master/algorithms/AI/minimax/Sources/Minimax.playground/Sources/Model/GameModel/DifficultLevel.swift)
+                * [Gamemodel](https://github.com/TheAlgorithms/Swift/blob/master/algorithms/AI/minimax/Sources/Minimax.playground/Sources/Model/GameModel/GameModel.swift)
+              * Minimax
+                * [Gamestatevalue](https://github.com/TheAlgorithms/Swift/blob/master/algorithms/AI/minimax/Sources/Minimax.playground/Sources/Model/Minimax/GameStateValue.swift)
+                * [Minimax](https://github.com/TheAlgorithms/Swift/blob/master/algorithms/AI/minimax/Sources/Minimax.playground/Sources/Model/Minimax/Minimax.swift)
+              * Player
+                * [Player](https://github.com/TheAlgorithms/Swift/blob/master/algorithms/AI/minimax/Sources/Minimax.playground/Sources/Model/Player/Player.swift)
+                * [Playersymbol](https://github.com/TheAlgorithms/Swift/blob/master/algorithms/AI/minimax/Sources/Minimax.playground/Sources/Model/Player/PlayerSymbol.swift)
+                * [Playertype](https://github.com/TheAlgorithms/Swift/blob/master/algorithms/AI/minimax/Sources/Minimax.playground/Sources/Model/Player/PlayerType.swift)
+            * View
+              * [Boardview](https://github.com/TheAlgorithms/Swift/blob/master/algorithms/AI/minimax/Sources/Minimax.playground/Sources/View/BoardView.swift)
+        * Tests
+          * Tests
+            * [Boardtests](https://github.com/TheAlgorithms/Swift/blob/master/algorithms/AI/minimax/Sources/Tests/Tests/BoardTests.swift)
+            * [Minimaxtests](https://github.com/TheAlgorithms/Swift/blob/master/algorithms/AI/minimax/Sources/Tests/Tests/MinimaxTests.swift)
+            * [Playertests](https://github.com/TheAlgorithms/Swift/blob/master/algorithms/AI/minimax/Sources/Tests/Tests/PlayerTests.swift)
   * Parsing
     * Shunting Yard
       * [Shunting Yard](https://github.com/TheAlgorithms/Swift/blob/master/algorithms/parsing/shunting_yard/shunting_yard.swift)
