@@ -62,6 +62,7 @@
   * [Mergesort](https://github.com/TheAlgorithms/Swift/blob/master/sorts/MergeSort.swift)
   * [Quicksort](https://github.com/TheAlgorithms/Swift/blob/master/sorts/QuickSort.swift)
   * [Selectionsort](https://github.com/TheAlgorithms/Swift/blob/master/sorts/SelectionSort.swift)
+  * [Bucketsort](https://github.com/TheAlgorithms/Swift/blob/master/sorts/BucketSort.swift)
 
 ## Trees
   * [Tree](https://github.com/TheAlgorithms/Swift/blob/master/trees/tree.swift)
