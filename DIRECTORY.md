@@ -52,6 +52,9 @@
 ## Recursion
   * [Fibonacci](https://github.com/TheAlgorithms/Swift/blob/master/recursion/fibonacci.swift)
 
+## Dynamic Programming
+  * [Fibonacci](https://github.com/TheAlgorithms/Swift/blob/master/dynamic_programming/fibonacci.swift)
+
 ## Search
   * [Binarysearch](https://github.com/TheAlgorithms/Swift/blob/master/Search/BinarySearch.swift)
   * [Linearsearch](https://github.com/TheAlgorithms/Swift/blob/master/Search/LinearSearch.swift)
