@@ -58,6 +58,7 @@
 
 ## Sorts
   * [Bubblesort](https://github.com/TheAlgorithms/Swift/blob/master/sorts/BubbleSort.swift)
+  * [Cocktailsort](https://github.com/TheAlgorithms/Swift/blob/master/sorts/CocktailSort.swift)
   * [Insertionsort](https://github.com/TheAlgorithms/Swift/blob/master/sorts/InsertionSort.swift)
   * [Mergesort](https://github.com/TheAlgorithms/Swift/blob/master/sorts/MergeSort.swift)
   * [Quicksort](https://github.com/TheAlgorithms/Swift/blob/master/sorts/QuickSort.swift)
