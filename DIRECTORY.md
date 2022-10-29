@@ -46,7 +46,7 @@
     * [Union Find](https://github.com/TheAlgorithms/Swift/blob/master/data_structures/union_find/union_find.swift)
 
 ## Graph
-  * [Depth-first and breadth-first search](https://github.com/TheAlgorithms/Swift/blob/master/graph/Graph.swift)
+  * [Graph](https://github.com/TheAlgorithms/Swift/blob/master/graph/Graph.swift)
   * Spanning Tree
     * [Kruskal](https://github.com/TheAlgorithms/Swift/blob/master/graph/spanning_tree/kruskal.swift)
 
