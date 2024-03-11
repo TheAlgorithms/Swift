@@ -34,6 +34,8 @@
       * [Shunting Yard](https://github.com/TheAlgorithms/Swift/blob/master/algorithms/parsing/shunting_yard/shunting_yard.swift)
 
 ## Data Structures
+  * Doubly Linked List
+    * [Doublylinkedlist](https://github.com/TheAlgorithms/Swift/blob/master/data_structures/doubly_linked_list/DoublyLinkedList.swift)
   * Heap
     * [Heap](https://github.com/TheAlgorithms/Swift/blob/master/data_structures/heap/heap.swift)
   * Linked List
