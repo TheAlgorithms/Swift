@@ -46,6 +46,10 @@
     * [Union Find](https://github.com/TheAlgorithms/Swift/blob/master/data_structures/union_find/union_find.swift)
 
 ## Graph
+  * Bfs
+    * [Bfs](https://github.com/TheAlgorithms/Swift/blob/master/graph/BFS/BFS.swift)
+  * Dfs
+    * [Dfs](https://github.com/TheAlgorithms/Swift/blob/master/graph/DFS/DFS.swift)
   * Spanning Tree
     * [Kruskal](https://github.com/TheAlgorithms/Swift/blob/master/graph/spanning_tree/kruskal.swift)
 
