@@ -1,6 +1,9 @@
 # List of all files
 
 ## Algorithms
+  * conversion
+    * [Binary to decimal](https://github.com/TheAlgorithms/Swift/blob/master/algorithms/conversion/binary-to-decimal.swift)
+    * [Decimal to binary](https://github.com/TheAlgorithms/Swift/blob/master/algorithms/conversion/decimal-to-binary.swift)
   * Ai
     * Minimax
       * Sources
