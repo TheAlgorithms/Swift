@@ -1,9 +1,6 @@
 # List of all files
 
 ## Algorithms
-  * conversion
-    * [Binary to decimal](https://github.com/TheAlgorithms/Swift/blob/master/algorithms/conversion/binary-to-decimal.swift)
-    * [Decimal to binary](https://github.com/TheAlgorithms/Swift/blob/master/algorithms/conversion/decimal-to-binary.swift)
   * Ai
     * Minimax
       * Sources
@@ -32,6 +29,9 @@
             * [Boardtests](https://github.com/TheAlgorithms/Swift/blob/master/algorithms/AI/minimax/Sources/Tests/Tests/BoardTests.swift)
             * [Minimaxtests](https://github.com/TheAlgorithms/Swift/blob/master/algorithms/AI/minimax/Sources/Tests/Tests/MinimaxTests.swift)
             * [Playertests](https://github.com/TheAlgorithms/Swift/blob/master/algorithms/AI/minimax/Sources/Tests/Tests/PlayerTests.swift)
+  * Conversion
+    * [Binary-To-Decimal](https://github.com/TheAlgorithms/Swift/blob/master/algorithms/conversion/binary-to-decimal.swift)
+    * [Decimal-To-Binary](https://github.com/TheAlgorithms/Swift/blob/master/algorithms/conversion/decimal-to-binary.swift)
   * Parsing
     * Shunting Yard
       * [Shunting Yard](https://github.com/TheAlgorithms/Swift/blob/master/algorithms/parsing/shunting_yard/shunting_yard.swift)
