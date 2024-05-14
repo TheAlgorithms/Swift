@@ -32,6 +32,10 @@
   * Conversion
     * [Binary-To-Decimal](https://github.com/TheAlgorithms/Swift/blob/master/algorithms/conversion/binary-to-decimal.swift)
     * [Decimal-To-Binary](https://github.com/TheAlgorithms/Swift/blob/master/algorithms/conversion/decimal-to-binary.swift)
+  * Palindrome
+    * [Palindrome Indices](https://github.com/TheAlgorithms/Swift/blob/master/algorithms/palindrome/palindrome_indices.swift)
+    * [Palindrome Recursion](https://github.com/TheAlgorithms/Swift/blob/master/algorithms/palindrome/palindrome_recursion.swift)
+    * [Palindrome Reversed](https://github.com/TheAlgorithms/Swift/blob/master/algorithms/palindrome/palindrome_reversed.swift)
   * Parsing
     * Shunting Yard
       * [Shunting Yard](https://github.com/TheAlgorithms/Swift/blob/master/algorithms/parsing/shunting_yard/shunting_yard.swift)
