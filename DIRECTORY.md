@@ -29,11 +29,20 @@
             * [Boardtests](https://github.com/TheAlgorithms/Swift/blob/master/algorithms/AI/minimax/Sources/Tests/Tests/BoardTests.swift)
             * [Minimaxtests](https://github.com/TheAlgorithms/Swift/blob/master/algorithms/AI/minimax/Sources/Tests/Tests/MinimaxTests.swift)
             * [Playertests](https://github.com/TheAlgorithms/Swift/blob/master/algorithms/AI/minimax/Sources/Tests/Tests/PlayerTests.swift)
+  * Conversion
+    * [Binary-To-Decimal](https://github.com/TheAlgorithms/Swift/blob/master/algorithms/conversion/binary-to-decimal.swift)
+    * [Decimal-To-Binary](https://github.com/TheAlgorithms/Swift/blob/master/algorithms/conversion/decimal-to-binary.swift)
+  * Palindrome
+    * [Palindrome Indices](https://github.com/TheAlgorithms/Swift/blob/master/algorithms/palindrome/palindrome_indices.swift)
+    * [Palindrome Recursion](https://github.com/TheAlgorithms/Swift/blob/master/algorithms/palindrome/palindrome_recursion.swift)
+    * [Palindrome Reversed](https://github.com/TheAlgorithms/Swift/blob/master/algorithms/palindrome/palindrome_reversed.swift)
   * Parsing
     * Shunting Yard
       * [Shunting Yard](https://github.com/TheAlgorithms/Swift/blob/master/algorithms/parsing/shunting_yard/shunting_yard.swift)
 
 ## Data Structures
+  * Doubly Linked List
+    * [Doublylinkedlist](https://github.com/TheAlgorithms/Swift/blob/master/data_structures/doubly_linked_list/DoublyLinkedList.swift)
   * Heap
     * [Heap](https://github.com/TheAlgorithms/Swift/blob/master/data_structures/heap/heap.swift)
   * Linked List
@@ -47,6 +56,10 @@
 
 ## Graph
   * [Graph](https://github.com/TheAlgorithms/Swift/blob/master/graph/Graph.swift)
+  * Bfs
+    * [Bfs](https://github.com/TheAlgorithms/Swift/blob/master/graph/BFS/BFS.swift)
+  * Dfs
+    * [Dfs](https://github.com/TheAlgorithms/Swift/blob/master/graph/DFS/DFS.swift)
   * Spanning Tree
     * [Kruskal](https://github.com/TheAlgorithms/Swift/blob/master/graph/spanning_tree/kruskal.swift)
 
@@ -59,8 +72,10 @@
 
 ## Sorts
   * [Bubblesort](https://github.com/TheAlgorithms/Swift/blob/master/sorts/BubbleSort.swift)
+  * [Cocktailsort](https://github.com/TheAlgorithms/Swift/blob/master/sorts/CocktailSort.swift)
   * [Insertionsort](https://github.com/TheAlgorithms/Swift/blob/master/sorts/InsertionSort.swift)
   * [Mergesort](https://github.com/TheAlgorithms/Swift/blob/master/sorts/MergeSort.swift)
+  * [Pancakesort](https://github.com/TheAlgorithms/Swift/blob/master/sorts/PancakeSort.swift)
   * [Quicksort](https://github.com/TheAlgorithms/Swift/blob/master/sorts/QuickSort.swift)
   * [Selectionsort](https://github.com/TheAlgorithms/Swift/blob/master/sorts/SelectionSort.swift)
 
