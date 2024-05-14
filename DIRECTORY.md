@@ -61,6 +61,7 @@
     * [Dfs](https://github.com/TheAlgorithms/Swift/blob/master/graph/DFS/DFS.swift)
   * [Graph](https://github.com/TheAlgorithms/Swift/blob/master/graph/Graph.swift)
   * Spanning Tree
+    * [Dijkstra](https://github.com/TheAlgorithms/Swift/blob/master/graph/spanning_tree/dijkstra.swift)
     * [Kruskal](https://github.com/TheAlgorithms/Swift/blob/master/graph/spanning_tree/kruskal.swift)
 
 ## Recursion
